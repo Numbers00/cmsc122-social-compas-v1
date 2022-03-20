@@ -1,6 +1,6 @@
 <template>
   <div class='container'>
-    <nav class="navbar navbar-expand-lg navbar-dark mt-5 rounded" style="background-color: #e11584;">
+    <nav class="purple-card navbar navbar-expand-lg navbar-light mt-5 mb-5 rounded">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">COMPAS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,15 @@
     <router-view/>
   </div>
 </template>
+
+<style>
+  .purple-card {
+    background-color: #de9be9;
+    border: 2px solid #bd35d0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+</style>
 
 <style lang="scss">
 #app {
