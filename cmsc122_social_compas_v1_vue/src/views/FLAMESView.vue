@@ -4,6 +4,7 @@
       <ProfileCard />
       <div class="col-lg-7 m-0 p-0">
         <FLAMESForms />
+        <HelperAccordion />
       </div>
     </div>
   </div>
@@ -12,6 +13,7 @@
 <script>
 import ProfileCard from '@/components/ProfileCard.vue'
 import FLAMESForms from '@/components/FLAMESForms.vue'
+import HelperAccordion from '@/components/HelperAccordion.vue'
 
 export default {
   name: 'FLAMESView',
@@ -20,7 +22,8 @@ export default {
   },
   components: {
     ProfileCard,
-    FLAMESForms
+    FLAMESForms,
+    HelperAccordion
   }
 }
 </script>

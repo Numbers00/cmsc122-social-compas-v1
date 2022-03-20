@@ -37,8 +37,8 @@
 
 <style>
   .purple-card {
-    background-color: #de9be9;
     border: 2px solid #bd35d0;
+    background-color: #de9be9;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="purple-card container-fluid m-0 rounded">
+  <div class="purple-card container-fluid m-0 rounded mb-5">
     <p class="container-fluid mt-2 mb-2 text-start p-0">
       <span class="flames-span p-2">FLAMES</span>
       Fill the following with the names of the people you want to match with
