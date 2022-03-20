@@ -36,17 +36,20 @@ export default {
     max-height: 600px;
     position: relative;
   }
+
   .header-img-container {
     width: 100%;
     min-height: 200px;
     max-height: 200px;
   }
+
   .header-img {
     border: 2px solid #bd35d0;
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+
   .profile-pic {
     border: 2px solid #bd35d0;
     position: absolute;
@@ -54,6 +57,7 @@ export default {
     width: 50%;
     object-fit: cover;
   }
+  
   p {
     position: relative;
     top: 120px;
